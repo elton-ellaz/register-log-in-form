@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="log_in.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    </head>
+    <div class="container">
+        <form action="/register" method="post" onsubmit="return comparePass()" class="mt-4" class="form">
+            
+        <div>
+            <h2>Create an Account</h2>
+            <label class="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+        </div>
+
+            <label class="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+            
+        <div>   
+            <label id="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+        
+        <div>      
+            <label id="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <span class="matching-txt mt-1">Not Matching</span>
+        </div>
+
+        <div>     
+            <label>
+              <input type="checkbox" checked="checked" name="terms" style="margin-bottom:15px"> l've read and accept the <a class="terms" href="#">Terms & Privacy</a>
+            </label>
+        </div>
+
+        <a href="welcom.html"><button id="btn" type="submit">Sign up with email</button></a>
+    </form>
+    
+
+        <p class="sign">Already have an account <a href="log_in.html">Login</a></p>
+
+        <script src="passwordChecker.js"></script>
+</html>

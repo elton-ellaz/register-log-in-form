@@ -1,0 +1,89 @@
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(133, 127, 127);
+}
+h2{
+    color: green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+#btn{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: blue;
+}
+#btn:hover{
+    background-color: blue;
+}
+.sign{
+padding-top: 8px;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#psw-repeat{
+    font-family: 'Arial Narrow';
+    font-size: 14px;
+    color: #131c41;
+}
+#psw{
+    font-family: 'Arial Narrow';
+    font-size: 14px; 
+    color: #131c41;
+}
+.pswd{
+    font-family: 'Arial Narrow';
+    font-size: 14px; 
+    color: #131c41; 
+}
+.email{
+    font-family:  'Arial Narrow';
+    font-size: 14px; 
+    color: #131c41;
+}
+.name{
+    font-family: 'Arial Narrow';
+    font-size: 14px; 
+    color: #131c41;
+}
+.terms{
+    font-size: 14px;
+}
